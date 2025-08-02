@@ -2337,39 +2337,32 @@ country_event = { #event that spreads attunement
 		}
 	}
 }
-country_event = { #The Native Effelai convert our people to the worship of Tswohvwoh'íi.
+
+country_event = { #The Native Effelai convert our people to the worship of the goddess.
 	id = effelai_bloom.322
 	title = effelai_bloom.322.t
 	desc = effelai_bloom.322.d
 	picture = NATIVES_HIGH_eventPicture
 
 	is_triggered_only = yes
-
-	if = {
-		limit = {
-			has_country_flag = effelai_native_knowledge
-			trigger = {
+	
+	option = { #Accept
+		name = effelai_bloom.322.a
+		trigger = {
+			AND = {
+				has_country_flag = effelai_native_knowledge
 				high_tolerance_ruinborn_race_trigger = yes
-				fast_owns_num_pops_of_race = { race = ruinborn amount = 1 }
 			}
 		}
-		option = { #Accept
-			name = effelai_bloom.322.a
-			country_event = {
-				id = effelai_bloom.323
-				days = 0
-			}
-		}
+		country_event = { id = effelai_bloom.323 }
 	}
-	else = {
-		option = { #Decline
-			name = effelai_bloom.322.b
-			generic_decrease_of_racial_tolerance_effect = { race = ruinborn small = yes }
-			capital_scope = {
-				spawn_rebels = {
-						type = tswohvwohii_rebels
-						size = 4
-				}
+	option = { #Decline
+		name = effelai_bloom.322.b
+		generic_decrease_of_racial_tolerance_effect = { race = ruinborn small = yes }
+		capital_scope = {
+			spawn_rebels = {
+					type = tswohvwohii_rebels
+					size = 4
 			}
 		}
 	}
