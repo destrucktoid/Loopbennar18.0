@@ -1582,6 +1582,7 @@ country_event = { #event chain - natives explain the effelai
 				id = effelai_bloom.310
 				days = 65
 			}
+			set_country_flag = effelai_native_knowledge
 		}
 	}
 }
@@ -2336,6 +2337,66 @@ country_event = { #event that spreads attunement
 		}
 	}
 }
+country_event = { #The Native Effelai convert our people to the worship of Tswohvwoh'Ã­i.
+	id = effelai_bloom.322
+	title = effelai_bloom.322.t
+	desc = effelai_bloom.322.d
+	picture = NATIVES_HIGH_eventPicture
+
+	is_triggered_only = yes
+
+	if = {
+		limit = {
+			has_country_flag = effelai_native_knowledge
+			trigger = {
+				high_tolerance_ruinborn_race_trigger = yes
+				fast_owns_num_pops_of_race = { race = ruinborn amount = 1 }
+			}
+		}
+		option = { #Accept
+			name = effelai_bloom.322.a
+			country_event = {
+				id = effelai_bloom.323
+				days = 0
+			}
+		}
+	}
+	else = {
+		option = { #Decline
+			name = effelai_bloom.322.b
+			generic_decrease_of_racial_tolerance_effect = { race = ruinborn small = yes }
+			capital_scope = {
+				spawn_rebels = {
+						type = tswohvwohii_rebels
+						size = 4
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Decide which native faith to worship
+	id = effelai_bloom.323
+	title = effelai_bloom.323.t
+	desc = effelai_bloom.323.d
+	picture = northamericagfx_PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = effelai_bloom.323.a
+		change_religion = tswohvwohii
+	}
+	option = {
+		name = effelai_bloom.323.b
+		change_religion = senanset
+	}
+	option = {
+		name = effelai_bloom.323.c
+		change_religion = chahinanito
+	}
+}
+
 country_event = { #congragulations, you have leveled up your attunement
 	id = effelai_bloom.360
 	title = effelai_bloom.360.t
@@ -2438,7 +2499,7 @@ country_event = {
 		}
 	}
 }
-#Olaka'utká - Beginning and the end
+#Olaka'utkï¿½ - Beginning and the end
 country_event = {
 	id = effelai_bloom.373
 	title = effelai_bloom.373.t
