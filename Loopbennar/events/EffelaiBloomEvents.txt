@@ -2350,8 +2350,12 @@ country_event = { #The Native Effelai convert our people to the worship of the g
 		name = effelai_bloom.322.a
 		trigger = {
 			AND = {
-				has_country_flag = effelai_native_knowledge
-				high_tolerance_ruinborn_race_trigger = yes
+				#has_country_flag = effelai_native_knowledge
+				OR = {
+					has_country_modifier = ruinborn_administration
+					high_tolerance_ruinborn_race_trigger = yes
+					medium_tolerance_ruinborn_race_trigger = yes
+				}
 			}
 		}
 		country_event = { id = effelai_bloom.323 }
