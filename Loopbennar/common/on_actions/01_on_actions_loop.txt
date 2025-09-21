@@ -4,6 +4,8 @@ on_startup = {
 		diggy_spawnable.10 #Axebellow Starting Event
 		diggy_spawnable.11 #Begans Starting Event
 		silentrepose.1
+		flavor_loopgeneric.8
+		flavor_loopgeneric.15
 	}
 }
 
@@ -87,3 +89,15 @@ on_monarch_death = {
             }
     }
 
+# Loopbennar Effelai Attunement Rework 
+
+on_siege_lost_province =  {
+	if = {
+		limit = { 
+			ROOT = { has_province_modifier = effelai_hub_attuned } 
+			FROM = { NOT = { has_country_flag = effelai_attuned_path } }
+			FROM = { NOT = { tag = REB} }
+		}
+		loop_effelai_hub_lost_effect = yes
+	}
+}

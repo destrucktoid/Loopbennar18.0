@@ -671,10 +671,7 @@ A17_branch_3 = {
 			set_country_flag = formed_enteben
 			swap_non_generic_missions = yes
 			override_country_name = ENTEBEN
-			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
-			}
+			increase_government_rank_scripted_effect = { rank = 2 }
 			lower_bloodwine_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -1491,7 +1488,7 @@ A17_enteben_2 = {
 				else = {
 					fort_level = 4
 				}
-				owned_by = ROOT
+				country_or_subject_holds  = ROOT
 			}
 			162 = { owner = { is_not_evil = yes } }
 			NOT = { has_country_modifier = great_ording_pilgrimage }
@@ -1869,7 +1866,7 @@ A17_enteben_3 = {
 		trigger = {
 			small_country_region = {
 				type = all
-				owned_by = ROOT
+				country_or_subject_holds  = ROOT
 			}
 		}
 		
