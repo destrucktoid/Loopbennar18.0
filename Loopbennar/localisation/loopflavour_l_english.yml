@@ -5,6 +5,12 @@
  flavor_loopgeneric.9.a:0 "Spread the Faith through trade and commerce, further than any army might reach!"
  flavor_loopgeneric.9.b:0 "Make the Temple a symbol of our zealous resilience against our enemies!"
  
+ loop_ae:0 "German Bias"
+ loop_authority:0 "German Bias 2"
+ 
+ portal_title:0 "Open the Portal"
+ H79_nation2:0 "Reform Ovdal Kanzad"
+ 
  
  
  altorzamh_reform:0 "Amber Road Republic" 
@@ -139,3 +145,61 @@
  flavor_loopgeneric.10.d:0 "As the fury of the Greentide subsides and adventurer and orc alike begin to settle, our mages can now begin dedicating time to magical research and projects once again!" 
  flavor_loopgeneric.10.a:0 "Let's hit the tomes!" 
  loop_magical_surge:0 "Magical Study Surge"
+ 
+ #Generic Tree Magic/Artificery
+ loop_generic_artificers_I:0 "Thought-Experiment"
+ loop_generic_artificers_II:0 "Eureka"
+ loop_generic_artificers_III:0 "Iron Guards"
+ loop_generic_artificers_IV:0 "Steel Legion"
+ loop_generic_magic_I:0 "College of Magic"
+ loop_generic_magic_II:0 "Arcane Academia"
+ loop_generic_magic_III:0 "Spell Storing"
+ loop_generic_magic_IV:0 "Mana Batteries"
+ loop_generic_balanced_I:0 "First Compromise"
+ loop_generic_balanced_II:0 "Arcane Harmony"
+ 
+ loop_generic_artificers_cd:0 "Artificial Ressource Drain"
+ loop_generic_magic_cd:0 "Restructure Magical Hierarchies"
+ loop_generic_balanced_cd:0 "Negotiate a Charter"
+ 
+ tt_default_magic:0 "We will permanently chose a purist stance and reject all kinds or artificery!"
+ tt_default_balanced:0 "We will permanently seek balance between established magic and new artificery!"
+ tt_default_artificers:0 "We will permanently chose a radical stance and reject all kinds or magic!"
+ 
+ tt_default_artificer_research:0 "This will make the other Artifice Specialization impossible."
+ tt_default_artificer_army:0 "This will make the other Artifice Specialization impossible."
+ tt_default_magic_mana:0 "This will make the other Magical Specialization impossible."
+ tt_default_magic_skill:0 "This will make the other Magical Specialization impossible."
+ 
+ 
+ loop_default_AM_title:0 "Paths of Power"
+ loop_default_AM_desc:0 ""
+ 
+ loop_default_magic_title:0 "The Old Ways"
+ loop_default_magic_desc:0 ""
+ loop_default_magic_mana1_title:0 "Spell Infrastructure"
+ loop_default_magic_mana1_desc:0 ""
+ loop_default_magic_mana2_title:0 "Arcane Batteries"
+ loop_default_magic_mana2_desc:0 ""
+ loop_default_magic_skill1_title:0 "Educational Reforms"
+ loop_default_magic_skill1_desc:0 ""
+ loop_default_magic_skill2_title:0 "My Mana Academia"
+ loop_default_magic_skill2_desc:0 ""
+ 
+ loop_default_artificers_title:0 "New Horizons"
+ loop_default_artificers_desc:0 ""
+ loop_default_artificers_research1_title:0 "Fund the Guild"
+ loop_default_artificers_research1_desc:0 ""
+ loop_default_artificers_research2_title:0 "Nexus of Knowledge"
+ loop_default_artificers_research2_desc:0 ""
+ loop_default_artificers_army1_title:0 "Artificer Industrial Complex"
+ loop_default_artificers_army1_desc:0 ""
+ loop_default_artificers_army2_title:0 "Steel Legion"
+ loop_default_artificers_army2_desc:0 ""
+ 
+ loop_default_balanced1_title:0 "A balanced Approach"
+ loop_default_balanced1_desc:0 ""
+ loop_default_balanced2_title:0 "Prosper in Harmony"
+ loop_default_balanced2_desc:0 ""
+ loop_default_balanced3_title:0 "Stronger Together"
+ loop_default_balanced3_desc:0 ""

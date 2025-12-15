@@ -22,10 +22,6 @@ tuwad_dhumakon_gardens = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -34,10 +30,6 @@ tuwad_dhumakon_gardens = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -150,10 +142,6 @@ gronstunad_trade_halls = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_3_or_higher
-				dwarven_monuments_has_dig_level_3_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -162,10 +150,6 @@ gronstunad_trade_halls = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_3_or_higher
-					dwarven_monuments_has_dig_level_3_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -302,10 +286,6 @@ verkal_dromak_mage_academy = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -318,10 +298,6 @@ verkal_dromak_mage_academy = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -454,10 +430,6 @@ vurdriz_andriz_bastion = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -466,10 +438,6 @@ vurdriz_andriz_bastion = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes

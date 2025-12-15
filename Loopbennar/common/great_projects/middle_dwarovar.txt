@@ -22,10 +22,6 @@ verkal_gulan_golden_delve = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -34,10 +30,6 @@ verkal_gulan_golden_delve = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -156,10 +148,6 @@ seghdihr_home_of_the_seg_band = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -168,10 +156,6 @@ seghdihr_home_of_the_seg_band = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -285,10 +269,6 @@ hehodovar_school_of_architecture = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -297,10 +277,6 @@ hehodovar_school_of_architecture = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -409,10 +385,6 @@ gor_vazumbrog_the_vaulthold = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -421,10 +393,6 @@ gor_vazumbrog_the_vaulthold = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -529,10 +497,6 @@ gor_ozumbrog_the_topaz_throne = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -541,10 +505,6 @@ gor_ozumbrog_the_topaz_throne = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes

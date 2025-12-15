@@ -1189,6 +1189,7 @@ isobelin_5_1 = {
 			is_capital = yes
 		}
 		trigger = {
+			OR = {
 			calc_true_if = {
 				desc = isobelin_stronger_together_tt
 				all_ally = {
@@ -1207,6 +1208,8 @@ isobelin_5_1 = {
 					is_at_war = no
 				}
 				amount = 2
+			}
+			diplomatic_reputation = 3
 			}
 		}
 

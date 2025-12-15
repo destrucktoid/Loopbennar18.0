@@ -170,10 +170,6 @@ ovdal_kanzad_cannon_foundry = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -182,10 +178,6 @@ ovdal_kanzad_cannon_foundry = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -303,10 +295,6 @@ grozumdhir_green_gate = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -315,10 +303,6 @@ grozumdhir_green_gate = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -438,10 +422,6 @@ ovdal_az_an_grand_lake_ballroom = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -450,10 +430,6 @@ ovdal_az_an_grand_lake_ballroom = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -581,10 +557,6 @@ hul_as_krakazol_breweries = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -593,10 +565,6 @@ hul_as_krakazol_breweries = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes

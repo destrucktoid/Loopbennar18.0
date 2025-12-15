@@ -24,7 +24,6 @@ silentrepose_1 = {
 			350 = {
 				has_building = mage_tower
 			}
-			has_estate_privilege = estate_mages_patronage_of_the_magical_arts
 			estate_influence = {
 				estate = estate_mages
 				influence = 50
@@ -462,7 +461,7 @@ silentrepose_2 = {
 					duration = -1
 					name = A83_camallaire
 				}
-				add_center_of_trade_level = 1
+				center_of_trade = 1 
 			}
 			add_treasury = -250
 			add_adm_power = -50
@@ -1140,15 +1139,6 @@ silentrepose_4 = {
 		trigger = {
 			stability = 3
 			devotion = 85
-			has_estate_privilege = estate_mages_reduced_research_regulations
-			custom_trigger_tooltip = {
-				tooltip = A83_scrying_internal_dissidents_tt
-				OR = {
-					has_country_modifier = magic_estate_scrying_internal_dissidents_1
-					has_country_modifier = magic_estate_scrying_internal_dissidents_2
-					has_country_modifier = magic_estate_scrying_internal_dissidents_3
-				}
-			}
 			custom_trigger_tooltip = {
 				tooltip = A83_tackling_death_tt
 				had_country_flag = {

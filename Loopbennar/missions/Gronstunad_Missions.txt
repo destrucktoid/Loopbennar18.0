@@ -1107,8 +1107,7 @@ gronstunad_2 = {
 					NOT = {
 						hold_condition = { Repaired = yes }
 						has_trade_building_trigger = yes
-						is_core = ROOT
-						owned_by = ROOT
+						country_or_non_sovereign_subject_holds = ROOT
 					}
 				}
 				AND = {
@@ -1130,14 +1129,12 @@ gronstunad_2 = {
 			4265 = { #Grozumdihr
 				hold_condition = { Repaired = yes }
 				has_trade_building_trigger = yes
-				is_core = ROOT
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4247 = { #Ovdal Kanzad
 				hold_condition = { Repaired = yes }
 				has_manpower_building_trigger = yes
-				is_core = ROOT
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4435 = { #Rayavhashapal
 				owner = {

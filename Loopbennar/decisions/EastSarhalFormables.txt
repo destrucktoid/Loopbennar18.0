@@ -325,8 +325,7 @@ country_decisions = {
 			hidden_trigger = {
 				culture_group = lizardfolk
 			}
-			is_at_war = no
-			is_free_or_tributary_trigger = yes                        
+			is_at_war = no                     
             #Required provinces
             num_of_owned_provinces_with = {
                 value = 6

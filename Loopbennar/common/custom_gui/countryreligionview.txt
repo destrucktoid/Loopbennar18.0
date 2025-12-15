@@ -408,6 +408,7 @@ custom_button = {
 			has_adopted_cult = ancestor_worship_cult
 			has_adopted_cult = grobilazk_cult
 			has_adopted_cult = scribble_cult
+			has_adopted_cult = nroekh_cult
 		}
 		has_dlc = "Rights of Man"
 	}
@@ -2468,10 +2469,7 @@ custom_button = {
 			NOT = { overextension_percentage = 0.01 }
 			NOT = { num_of_rebel_armies = 1 }
 			total_development = 100
-			calc_true_if = {
-				all_subject_country = { NOT = { liberty_desire = 50 } }
-				amount = 2
-			}
+			
 		}
 	}
 	effect = { 
@@ -2503,11 +2501,8 @@ custom_button = {
 			stability = 1
 			NOT = { overextension_percentage = 0.01 }
 			NOT = { num_of_rebel_armies = 1 }
-			total_development = 200
-			calc_true_if = {
-				all_subject_country = { NOT = { liberty_desire = 50 } }
-				amount = 3
-			}
+			total_development = 150
+			
 		}
 	}
 	effect = {
@@ -2539,11 +2534,8 @@ custom_button = {
 			stability = 1
 			NOT = { overextension_percentage = 0.01 }
 			NOT = { num_of_rebel_armies = 1 }
-			total_development = 300
-			calc_true_if = {
-				all_subject_country = { NOT = { liberty_desire = 50 } }
-				amount = 4
-			}
+			total_development = 200
+			
 		}
 	}
 	effect = {
@@ -2575,11 +2567,8 @@ custom_button = {
 			stability = 1
 			NOT = { overextension_percentage = 0.01 }
 			NOT = { num_of_rebel_armies = 1 }
-			total_development = 400
-			calc_true_if = {
-				all_subject_country = { NOT = { liberty_desire = 50 } }
-				amount = 5
-			}
+			total_development = 250
+			
 		}
 	}
 	effect = {
@@ -2611,11 +2600,8 @@ custom_button = {
 			stability = 1
 			NOT = { overextension_percentage = 0.01 }
 			NOT = { num_of_rebel_armies = 1 }
-			total_development = 500
-			calc_true_if = {
-				all_subject_country = { NOT = { liberty_desire = 50 } }
-				amount = 6
-			}
+			total_development = 300
+			
 		}
 	}
 	effect = {

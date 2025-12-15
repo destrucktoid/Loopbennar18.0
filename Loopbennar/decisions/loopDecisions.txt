@@ -415,6 +415,37 @@ country_decisions = {
         }
 	}
 	
+	H79_nation2 = {
+		major = yes
+		potential = {
+			has_reform = dwarovar_adventurer_reform
+			has_country_modifier = dwarven_administration
+			NOT = { has_country_flag = formed_diggy_formable }
+			NOT = { exists = H97 }
+		}
+		provinces_to_highlight = {
+			province_id = 4247
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+			is_state_core = 4247
+			hidden_trigger = { has_reform = dwarovar_adventurer_reform }
+			adm_tech = 7	#around 1500
+			is_at_war = no
+			num_of_cities = 3
+            dwarovar_special_formation_trigger = yes
+		}
+		effect = {
+			adventurer_hold_formation = { tag = H79 culture = diamond capital_id = 4247 }
+			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
 	damerian_republic = {
 		major = yes
 		potential = {

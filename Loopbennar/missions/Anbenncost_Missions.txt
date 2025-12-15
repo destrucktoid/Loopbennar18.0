@@ -433,10 +433,8 @@ anbenncost_3 = {
 			OR = {
 				eoa_is_dismantled = yes
 				emperor = {
-					has_opinion = {
-						who = ROOT
-						value = 100
-					}
+					has_100_opinion_improved_relation = { target = ROOT }
+					has_25_opinion_sent_gift = { target = ROOT }
 				}
 			}
 		}

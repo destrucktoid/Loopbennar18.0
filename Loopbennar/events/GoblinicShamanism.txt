@@ -3237,7 +3237,19 @@ country_event = {
 			set_country_flag = swaps_cult_flag
 		}
 	}
-
+	
+	option = {	#Select nroekh_cult
+		name = flavour_kravigozles.102.a
+		trigger = {
+			has_unlocked_cult = nroekh_cult
+			NOT = { has_primary_cult = { cult = nroekh_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = nroekh_cult
+		}
+	}
+	
 	option = {	#Select kroozmuta_zemna_cult
 		name = goblinic_shamanism_flavor.602.a
 		trigger = {

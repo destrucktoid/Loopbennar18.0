@@ -190,7 +190,6 @@ country_decisions = {
 				ruler_religion = aakhetist
 			}
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
 			if = {
 				limit = { 
 					ai = no 

@@ -22,10 +22,6 @@ kronium_throne = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_3_or_higher
-				dwarven_monuments_has_dig_level_3_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -34,10 +30,6 @@ kronium_throne = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_3_or_higher
-					dwarven_monuments_has_dig_level_3_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -151,10 +143,6 @@ hall_of_the_ancestors = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -163,10 +151,6 @@ hall_of_the_ancestors = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -275,10 +259,6 @@ er_natvir_railyard = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -287,10 +267,6 @@ er_natvir_railyard = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -413,10 +389,6 @@ kozenad_brothel = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -425,10 +397,6 @@ kozenad_brothel = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -548,10 +516,6 @@ mithradhum_academy = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -560,10 +524,6 @@ mithradhum_academy = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -684,10 +644,6 @@ orldhum_estates = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -696,10 +652,6 @@ orldhum_estates = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -829,10 +781,6 @@ khugdihr_bank = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -841,10 +789,6 @@ khugdihr_bank = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -965,10 +909,6 @@ orlazam_food_silos = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -977,10 +917,6 @@ orlazam_food_silos = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -1236,10 +1172,6 @@ vazhatun_observatory = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -1248,10 +1180,6 @@ vazhatun_observatory = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -1378,10 +1306,6 @@ krakdhumvror_hold = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -1390,10 +1314,6 @@ krakdhumvror_hold = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
@@ -1517,10 +1437,6 @@ jorkad_aqueduct = {
 	can_use_modifiers_trigger = {
 		AND = {
 			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-				dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
-			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes
 			}
@@ -1529,10 +1445,6 @@ jorkad_aqueduct = {
 	}
 	can_upgrade_trigger = {
 		AND = {
-			custom_trigger_tooltip = {
-				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
-					dwarven_monuments_has_dig_level_2_or_higher = yes
-			}
 			custom_trigger_tooltip = {
 				tooltip = dwarven_monuments_can_use_tooltip
 					dwarven_monuments_has_acceptable_culture_or_race = yes

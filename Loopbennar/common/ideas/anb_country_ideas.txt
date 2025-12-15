@@ -12,7 +12,7 @@ J54_ideas = {
 		leader_land_manuever  = 1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.15
+		land_forcelimit_modifier = 0.1
 	}
 
 	trigger = {
@@ -56,7 +56,7 @@ J55_ideas = {
 		leader_land_manuever  = 1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.15
+		land_forcelimit_modifier = 0.1
 	}
 
 	trigger = {
@@ -97,7 +97,7 @@ J56_ideas = {
 		leader_land_manuever  = 1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.15
+		land_forcelimit_modifier = 0.1
 	}
 
 	trigger = {
@@ -1741,7 +1741,7 @@ A49_ideas = {
 	}
 
 	bonus = {
-		improve_relation_modifier = 0.2 #More diplomatic oriented gnolls
+		development_cost = -0.05 #More diplomatic oriented gnolls
 	}
 
 	trigger = {
@@ -1762,14 +1762,14 @@ A49_ideas = {
 	A49_brainmarrow_pact = { # To help in modernisation, the Queen of the Hill introduced a system in which mercenaries had to return to their home every few years and bring some kind of knowledge back with them as a form of tribute
 		technology_cost = -0.05
 	}
+	A49_inquisitive_of_all_kults = { # Xhazobkult worship became more tolerable and more animistic, sacrificing animals and objects instead of humans
+		land_morale = 0.1
+	}
 	A49_a_tack_in_businors_boot = { # having once been the terrors of businor, the gnolls know the lost hidden places and trails and partnered with human smugglers to make money
 		leader_land_manuever = 1
 	}
 	A49_hillthrone_has_eyes = { # Queens of the Hill created an enforcer gang of young hostages from the disparate Khenak tribes
-		global_autonomy = -0.05
-	}
-	A49_inquisitive_of_all_kults = { # Xhazobkult worship became more tolerable and more animistic, sacrificing animals and objects instead of humans
-		tolerance_heathen = 2
+		global_autonomy = -0.1
 	}
 
 }
@@ -3501,7 +3501,9 @@ Z22_ideas = {
 		tag = Z22
 	}
 	free = yes
-
+	Z22_delandian_act_of_equality = {
+		land_morale = 0.1
+	}
 	Z22_maldorian_the_navigator = {
 		range = 0.25
 		light_ship_cost = -0.1
@@ -3512,9 +3514,6 @@ Z22_ideas = {
 	}
 	Z22_icewind_palace_of_commerce = {
 		merchants = 1
-	}
-	Z22_delandian_act_of_equality = {
-		land_morale = 0.1
 	}
 	Z22_army_of_all_citizens = {
 		manpower_recovery_speed = 0.15
@@ -4126,7 +4125,7 @@ Z53_ideas = {
 		diplomatic_reputation = 1
 	}
 	Z53_pacification_of_the_beast = {
-		development_cost = -0.15
+		development_cost = -0.1
 	}
 	Z53_defensive_mentality = {
 		defensiveness = 0.2
@@ -5098,7 +5097,7 @@ Z39_ideas = {
 A74_ideas = {
 	start = {
 		development_cost = -0.1
-		privateer_efficiency = 0.10
+		land_morale = 0.05
 	}
 	bonus = {
 		global_trade_power = 0.10
@@ -5109,25 +5108,23 @@ A74_ideas = {
 	}
 
 	A74_hub_of_the_underworld = {
-		advisor_cost = -0.1
-		advisor_pool = 1
+		discipline = 0.05
 	}
 	A74_the_black_hulls = {
 		galley_power = 0.20
+	}
+	A74_the_maritime_guard = {
+		allowed_marine_fraction = 0.25
 	}
 	A74_favored_children_of_nathalyne = {
 		spy_offence = 0.25
 		tolerance_own = 1
 	}
-	A74_the_maritime_guard = {
-		discipline = 0.05
-	}
 	A74_impressment_of_the_monstrous = {
-		global_sailors_modifier = 0.10
-		naval_maintenance_modifier = -0.10
+		merchants = 1
 	}
 	A74_festival_of_shadows = {
-		diplomatic_reputation = 1
+		shock_damage_received = -0.1
 	}
 	A74_silnath_opera_house = {
 		idea_cost = -0.10
@@ -5769,7 +5766,7 @@ G63_ideas = {
 H22_ideas = {
 	start = {
 		colonists = 1
-		development_cost = -0.15
+		development_cost = -0.1
 	}
 	bonus = {
 		global_trade_power = 0.1
@@ -6577,7 +6574,7 @@ I05_ideas = {
 		horde_unity = 1
 	}
 	I05_warchanters_of_mithradhum = {
-		moral_damage = 0.1
+		morale_damage = 0.1
 	}
 	I05_famed_mithril_warriors = {
 		prestige = 1
@@ -7355,7 +7352,7 @@ I24_ideas = {
 		vassal_forcelimit_bonus = 0.5
 	}
 	I24_hearth_and_hold = {
-		development_cost = -0.2
+		development_cost = -0.15
 	}
 	I24_udreks_legacy = {
 		diplomatic_reputation = 1
@@ -16033,7 +16030,7 @@ I99_ideas = {
 	free = yes
 
 	I99_jazhobedin = {
-		development_cost = -0.15 #massive shanty towns, Jazhobedin "great towns"
+		development_cost = -0.1 #massive shanty towns, Jazhobedin "great towns"
 	}
 	I99_courage_of_the_horde = { #courage of the horde
 		land_morale = 0.1
@@ -17303,17 +17300,17 @@ Y64_ideas = {
 		naval_forcelimit_modifier = 0.33
 	}
 	Y64_battle_of_tracaisinh = { #Pinghoi seized the main port of Hon Sai and their modern capital from the sea
-		siege_blockade_progress = 1
+		shock_damage_received = -0.15
 	}
 	Y64_pirates_due = { #Demanding tribute and taxes from coastal villages
-		global_tax_modifier = 0.1
+		allowed_marine_fraction = 0.35
+		global_sailors_modifier = 0.35
 	}
 	Y64_the_widows_web = { #Ping Shuang was a master plotter who's connections continue to serve Pinghoi long after her death
-		spy_offence = 0.25
+		siege_blockade_progress = 1
 	}
 	Y64_tung_hoijungsi = { #Marine corp of Pinghoi
-		allowed_marine_fraction = 0.35
-		global_sailors_modifier = 0.1
+		global_tax_modifier = 0.1
 	}
 	Y64_queens_code = { #The pirate code of Ping Shuang dictating the rules of the fleet, adapted into the laws of Pinghoi
 		global_unrest = -1
@@ -19947,11 +19944,11 @@ U18_ideas = {
 #Drolakand ideas
 F32_ideas = { #Pirates of a resource poor peninsula, influenced by gnolls
 	start = {
-		galley_cost = -0.2
-		privateer_efficiency = 0.15
+		land_morale = 0.1
+		privateer_efficiency = 0.1
 	}
 	bonus = {
-		blockade_efficiency = 0.33
+		naval_morale = 0.1
 	}
 	trigger = {
 		tag = F32
@@ -19959,12 +19956,11 @@ F32_ideas = { #Pirates of a resource poor peninsula, influenced by gnolls
 	free = yes
 
 	F32_from_barren_shores = { #The Drolas peninsula is a poor land, so it's not very surprising that many of the locals took to the seas to raid the richer nations along the Divenhal
-		allowed_marine_fraction = 0.1
+		allowed_marine_fraction = 0.25
 		global_sailors_modifier = 0.25
 	}
 	F32_a_driftwood_fleet = { #The Drolas does not have good quality shipbuilding wood, so their fleets are cobbled together of other ships and bits of other ships
-		sea_repair = yes
-		capture_ship_chance = 0.2
+		shock_damage_received = -0.1
 	}
 	F32_the_scourge_of_eborthil = { #Gnollish pirate lord
 		leader_naval_manuever = 1
@@ -19980,8 +19976,7 @@ F32_ideas = { #Pirates of a resource poor peninsula, influenced by gnolls
 		interest = -0.5
 	}
 	F32_matriarchs_of_the_drolas = { #Ever since the gnolls ruled over the Drolas, the women have played a promiment role in life, sometimes even running the show
-		advisor_pool = 2
-		female_advisor_chance = 0.5
+		administrative_efficiency = 0.05
 	}
 }
 
@@ -22047,7 +22042,7 @@ A73_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	A73_Silver_Army_Engineer_Corps = {
-		siege_ability = 0.15
+		land_morale = 0.1
 	}
 	A73_The_Voice_of_Imperial_Dwarves = {
 		prestige = 1
@@ -22894,7 +22889,7 @@ U68_ideas = {
 	}
 	
 	bonus = {
-		candidate_random_bonus = 1 #republican traditions and laws ensure able candidates
+		infantry_power = 0.1 #republican traditions and laws ensure able candidates
 	}
 	
 	trigger = {
@@ -22920,7 +22915,7 @@ U68_ideas = {
 		morale_damage_received = -0.1
 	}
 	U68_paradise_carnival= { #yearly celebrations for all manner of things, and an excuse to party and meet potential partners, for business or more personal matters
-		global_trade_power = 0.1
+		development_cost = -0.1
 	}
 	U68_right_to_beauty = { #beauty as a right, big funding and stipends for all sorts of cosmetics and research
 		global_unrest = -2
@@ -25995,7 +25990,7 @@ F54_ideas = {
 U27_ideas = { #Made by @Ottokard#1942
 	start = {
 		infantry_fire = 0.15 #they enthusiastically adopt guns
-		development_cost = -0.15 #a lot of "free" land
+		development_cost = -0.1 #a lot of "free" land
 	}
 	bonus = {
 		morale_damage_received = -0.10
@@ -26009,7 +26004,7 @@ U27_ideas = { #Made by @Ottokard#1942
 		stability_cost_modifier = -0.10
 	}
 	U27_from_many_came_one = { #access to a large array of talent from across the federation
-		advisor_cost = -0.1
+		idea_cost = -0.05
 	}
 	U27_built_from_scratch = { #
 		build_cost = -0.10
@@ -26026,7 +26021,6 @@ U27_ideas = { #Made by @Ottokard#1942
 	}
 	U27_it_is_the_future_we_seek = { #looks to the future, cares little for the past
 		technology_cost = -0.05
-		idea_cost = -0.05
 	}
 }
 
@@ -28821,7 +28815,7 @@ S25_ideas = {
 L09_ideas = {
 	start = {	#Zuvavim has been the premier naval power in the region for centuries and take great pride in their navies
 		navy_tradition = 1
-		naval_morale = 0.15
+		discipline = 0.05
 	}
 	bonus = {	#They want to make their neighbours on the coast and northern isles into their subjects, also fits thematically with their final idea
 		accept_vassalization_reasons = 10
@@ -33902,7 +33896,7 @@ Y37_ideas = {
 	free = yes
 	
 	Y37_the_exiled_shadowmancers = {
-		num_accepted_cultures = 2
+		global_manpower_modifier = 0.2
 	}
 	Y37_jaerels_lifeline = {
 		spy_offence = 0.25
@@ -33915,7 +33909,7 @@ Y37_ideas = {
 		yearly_corruption = -0.15
 	}
 	Y37_the_shadow_dance = {
-		leader_land_shock = 1
+		shock_damage = 0.15
 	}
 	Y37_tiger_seal = {
 		defensiveness = 0.1
@@ -38520,11 +38514,11 @@ Y42_ideas = {
     }
 	free = yes
     Y42_paramount_spring = {
-        tolerance_own = 2
+        development_cost = -0.05
     }
 
     Y42_spring_guardians = {
-        morale_damage_received = -0.1
+        morale_damage_received = -0.15
     }
 
 	Y42_spirit_pact = {
@@ -48524,46 +48518,6 @@ R33_ideas = { #Ghattub
 	}
 }
 
-J54_ideas = { #Altorzamh
-	start = {
-		merchants = 1
-		trade_steering = 0.2
-	}
-	bonus = {
-		free_dip_policy = 1
-	}
-	trigger = {
-		tag = J54
-	}
-	free = yes
-
-	J54_heart_of_the_continent = {
-		trade_efficiency = 0.2
-	}
-	J54_yagbaithaekh = {
-		global_institution_spread = 0.25
-		technology_cost = -0.05
-	}
-	J54_gharsu = {
-		discipline = 0.05
-		reinforce_speed = 0.15
-	}
-	J54_spatial_grandeur = {
-		state_governing_cost = -0.1
-		envoy_travel_time = -0.5
-	}
-	J54_winged_counsel = {
-		advisor_cost = -0.1
-		female_advisor_chance = 0.5
-	}
-	J54_self_drawn_artillery = {
-		artillery_cost = -0.1
-		artillery_power = 0.1
-	}
-	J54_twelve_athlete_relay = {
-		army_tradition_decay = -0.01
-	}
-}
 
 #Purapuraxasqa Kawsay
 P33_ideas = {
@@ -49165,3 +49119,79 @@ N88_ideas = { #Kokou ideas - LVT and Captain Zaco
 		global_prov_trade_power_modifier = 0.15
 	}
 }
+
+AHU_ideas = { #Ahudazar
+	start = {
+		discipline = 0.05
+		production_efficiency = 0.1
+	}
+	bonus = {
+		global_trade_power = 0.1
+	}
+	trigger = {
+		tag = AHU
+	}
+	free = yes
+
+	AHU_idea_one = {
+		mages_loyalty_modifier = 0.05
+		build_cost = -0.05
+	}
+	AHU_idea_two = {
+		global_missionary_strength = 0.02
+	}
+	AHU_idea_three = {
+		defensiveness = 0.15
+	}
+	AHU_idea_four = {
+		trade_efficiency = 0.1
+	}
+	AHU_idea_five = {
+		fire_damage = 0.1
+	}
+	AHU_idea_six = {
+		ship_durability = 0.05
+		naval_morale = 0.1
+	}
+	AHU_idea_seven = {
+		naval_forcelimit_modifier = 0.15
+	}
+}
+
+Q70_ideas = { #Kravigozles
+	start = {	
+		colonists = 1
+		idea_cost = -0.1
+	}
+	bonus = {
+		leader_cost = -0.25
+	}
+	trigger = {
+		tag = Q70
+	}
+	free = yes
+
+	Q70_idea_one = {
+		discipline = 0.05
+	}
+	Q70_idea_two = {
+		global_unrest = -2
+	}
+	Q70_idea_three = {
+		development_cost = -0.05
+	}
+	Q70_idea_four = {
+		global_missionary_strength = 0.02
+		missionaries = 1
+	}
+	Q70_idea_five = {
+		manpower_in_true_faith_provinces= 0.1
+	}
+	Q70_idea_six = {
+		advisor_cost = -0.1
+	}
+	Q70_idea_seven = {
+		drill_decay_modifier = -0.33
+	}
+}
+

@@ -194,10 +194,6 @@ bal_dostan = {
 						loyalty = 15
 					}
 				}
-				country_event = { 
-					id = cannorian_monuments_bal_dostan.1
-					days = 1
-				}
 			}
 		}
 	}

@@ -457,6 +457,7 @@ LRM_1_2 = {
             }
 			A01 = {
 				OR = {
+					exists = no 
 					is_enemy = ROOT
 					alliance_with = ROOT
 					has_opinion = {
@@ -467,6 +468,7 @@ LRM_1_2 = {
 			}
 			A13 = {
 				OR = {
+					exists = no 
 					is_enemy = ROOT
 					alliance_with = ROOT
 					has_opinion = {

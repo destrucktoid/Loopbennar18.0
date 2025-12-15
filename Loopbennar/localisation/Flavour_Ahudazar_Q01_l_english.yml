@@ -130,8 +130,8 @@
  
  #Ideas
  AHU_ideas:0 "Ahudazar Ideas"
- AHU_start:0 "Ahudazari Traditions"
- AHU_bonus:0 "Ahudazari Ambition"
+ AHU_ideas_start:0 "Ahudazari Traditions"
+ AHU_ideas_bonus:0 "Ahudazari Ambition"
  AHU_idea_one:0 "Garden of the East"
  AHU_idea_one_desc:0 "While their Lands may not be as rich as the banks of the Suran, the Maqetis love and sacrifice for their soil has resulted in a long history of agricultural innovation and a religious expression of worship in hard work on the land itself."
  AHU_idea_two:0 "The Halls of Reverence"

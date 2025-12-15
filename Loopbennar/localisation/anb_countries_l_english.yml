@@ -392,8 +392,8 @@
  B96_ADJ:0 "Salcerani"
  B97:0 "Ravenhill"
  B97_ADJ:0 "Ravenkin"
- B98:0 "The Reach"
- B98_ADJ:0 "Reachman"
+ B98:0 "Bayvek"
+ B98_ADJ:0 "Bayveki"
  B99:0 "Aranthíl"
  B99_ADJ:0 "Aranthíl"
 
@@ -2448,6 +2448,8 @@ Q02_ADJ:0 "Yzhetaladzi"
 
  U60:0 "Soruin"
  U60_ADJ:0 "Soruinic"
+ U62:0 "Malatel"
+ U62_ADJ:0 "Malateli"
 
  U76:0 "Horizona"
  U76_ADJ:0 "Horizonan"

@@ -154,7 +154,6 @@ on_startup = {
 		flavour_celmaldor.998 #Celmaldor setup check stuff
 		flavour_karassk.1 #karassk starting event 
 		flavour_tiboktsamo.0 #Starting event for Tiboktsamo
-		ljh_jiangdu_war_event.1 #LJH-Jiangdu war setup event
 		flavour_mulen.0 #Mulen compensation for magic rework
 		salla_drennen.1 #salla drennen opening event
 		flavor_venomtooth.1 #Venomtooth Starting Event
@@ -11589,7 +11588,7 @@ on_four_year_pulse_4 = {
 			owns = 1
 			NOT = {
 				calc_true_if = {
-					amount = 20
+					amount = 30
 					effelai_superregion = {
 						type = all
 						OR = {
