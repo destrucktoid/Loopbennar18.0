@@ -29,10 +29,12 @@ historical_rival = A60 #Asheniande
 		claim = 100
 		adm = 0
 		dip = 5
-		mil = 5
+		mil = 6
 	}
 	define_powerful_mage = {
 		type = heir
+		evocation = 1
+		conjuration = 1
 	}
 }
 

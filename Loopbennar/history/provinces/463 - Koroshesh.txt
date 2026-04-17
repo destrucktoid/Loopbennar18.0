@@ -3,8 +3,8 @@
 
 owner = L28
 controller = L28
-add_core = U01
 add_core = L28
+add_core = U01
 culture = korosheshi
 religion = elikhetist
 

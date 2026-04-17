@@ -1,9 +1,9 @@
-owner = Y22
-controller = Y22
+owner = Y09
+controller = Y09
+add_core = Y09
 add_core = Y22
 culture = jiangszun
 religion = accretive_path
-
 
 hre = no
 
@@ -20,3 +20,5 @@ is_city = yes
 latent_trade_goods = {
 	coal
 }
+
+add_historic_chi_wellspring = { size = inactive }

@@ -363,6 +363,30 @@ military_academy = {
 	picture = "hold_military_academy"
 }
 
+hold_vaults = {
+	trade_goods_size = 0.5
+	yearly_corruption = -0.1
+	global_unrest = -2
+	allowed_rajput_fraction = 0.05
+	picture = "vault_icon"
+}
+
+hold_vaults_2 = {
+	trade_goods_size = 1
+	yearly_corruption = -0.2
+	global_unrest = -4
+	allowed_rajput_fraction = 0.1
+	picture = "vault_icon"
+}
+
+vault_museum = {
+	trade_goods_size = 1
+	prestige_decay = -0.01
+	innovativeness_gain = 0.5
+	artificers_research_time = -0.20
+	picture = "hold_engineer_manufactory" #TODO: reicon
+}
+
 
 dwarovar_rail = {
 	picture = "dwarovar_rail"
@@ -551,9 +575,7 @@ the_reformist = {
 	innovativeness_gain = 0.5
 	global_unrest = -2
 	inflation_reduction = 0.15
-	production_efficiency = 0.1
-	trade_efficiency = 0.1
-	global_tax_modifier = 0.1
+	development_cost = -0.1
 }
 
 cure_bringer = {
@@ -571,17 +593,16 @@ onyx_breaker = {
 }
 
 dwarovar_claimer = {
-	global_manpower = 10
-	reinforce_cost_modifier = -0.4
-	manpower_recovery_speed = 0.5
-	land_forcelimit = 15
-	land_morale = 0.2
-	global_supply_limit_modifier = 0.5
 	global_colonial_growth = 15
 	advisor_cost = -0.15
 	global_tax_income = 60
 	global_colonial_growth = 10
 	monthly_splendor = 2
+	global_manpower = 10
+	manpower_recovery_speed = 0.5
+	land_forcelimit = 15
+	land_morale = 0.2
+	global_supply_limit_modifier = 0.5
 }
 
 inward_military = {
@@ -761,8 +782,7 @@ shadow_of_the_hoardcurse = {
 }
 
 legacy_of_goblinsbane = {
-	land_morale = 0.1
-	shock_damage_received = -0.05
+	land_morale = 0.05
 }
 
 amlharaz_autonomy = {
@@ -1719,11 +1739,23 @@ sporeweaver_sanctuary = {
 	picture = "dwarovar_unique_monster"
 }
 
+befriended_sporeweaver_sanctuary = {
+	allowed_num_of_manufactories = -1
+	province_trade_power_modifier = 0.5
+	local_hostile_movement_speed = -0.5
+	picture = "dwarovar_unique_monster"
+}
+
 nest_of_ancient_queen = {
 	innovativeness_gain = 0.25
 	local_autonomy = 0.1
 	trade_goods_size = 0.02
 	picture = "dwarovar_unique_monster"
+}
+
+gor_vazumbrog_dragons_wound = {
+	trade_goods_size = 0.02
+	picture = "gor_vazumbrog_dragons_wound"
 }
 
 diggy_cooldown = {
@@ -1769,7 +1801,7 @@ noble_norker_tribe = {
 
 squatter_cheap_colonies = {
 	global_tax_income = 12
-	colony_cost_modifier = -0.25
+	colony_cost_modifier = -0.5
 	colonist_placement_chance = 0.10
 }
 
@@ -2100,3 +2132,37 @@ dwarovar_newcomer_ban = {
 dwarovar_attrition_settlers = {
 	land_attrition = -0.1
 }
+
+dwarovar_more_mines_province = {
+	local_production_efficiency = 0.1
+}
+
+dwarovar_more_mines_country = {
+	global_unrest = 2
+}
+
+dwarovar_less_mines_province = {
+	production_efficiency = -0.1
+}
+
+dwarovar_less_mines_country = {
+	global_unrest = -2
+}
+
+dwarovar_more_time_more_settlers = {
+	global_colonial_growth = 15
+	colonist_placement_chance = 0.05
+	global_unrest = 2
+}
+
+dwarovar_less_time_less_settlers = {
+	global_colonial_growth = -15
+	colonist_placement_chance = -0.05
+	global_unrest = -2
+}
+
+goblin_drum_maintenance = {
+	global_prosperity_growth = 0.1
+	monthly_splendor = 2
+}
+OL_dummymod_no_hoardcurse = { }

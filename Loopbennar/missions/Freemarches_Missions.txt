@@ -867,7 +867,7 @@ freemarches_missions_2_established_cursed_ones= {
 		
 		trigger = {
 			has_estate = estate_artificers
-			has_institution = global_trade
+			has_institution = manufactories
 			treasury = 1000
 		}
 		

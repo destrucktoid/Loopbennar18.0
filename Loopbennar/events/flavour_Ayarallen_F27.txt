@@ -100,6 +100,26 @@ country_event = { #plight of the sadnatu
 	}
 }
 
+country_event = { #bind the houses
+	id = flavour_ayarallen.2
+	title = flavour_ayarallen.2.t
+	desc = flavour_ayarallen.2.d
+	picture = HARPY_TOWN_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = flavour_ayarallen.2.a
+		F80 = {
+			inherit = F33
+		}
+		add_dip_power = -100
+	}
+	option = {
+		name = flavour_ayarallen.2.b
+		add_dip_power = 200
+	}
+}
 
 country_event = { #summon the matriarchs
 	id = flavour_ayarallen.3
@@ -265,7 +285,10 @@ country_event = { #The Kumarkandi Concession
 			F27 = { vassalize = F30 }
 		}
 		F30 = { add_historical_friend = F27 }
-		F27 = { add_historical_friend = F30 }
+		F27 = { 
+			add_historical_friend = F30 
+			add_adm_power = 300
+		}
 	}
 
 }
@@ -553,11 +576,15 @@ country_event = { #The Firanyaleni Revolt
 			674 = { if = { limit = { NOT = { owned_by = F82 } country_or_non_sovereign_subject_holds = F27 } remove_core = owner cede_province =  F82 add_core = F82 } }
 			F82 = { declare_war_with_cb = { who = F27 casus_belli = cb_annex } }
 			676 = { add_latest_building = { builder = F82 fort = yes } }
-			if = {
-				limit = {
-					any_country = { owns = 3064 culture = green_orc is_subject = no }
+			F82 = {
+				every_neighbor_country = {
+					limit = {
+						culture_is_orcish = yes
+						NOT = { is_subject = yes }
+					}
+					create_alliance = F82
+					join_all_offensive_wars_of = F82
 				}
-				3064 = { owner = { create_alliance = F82 join_all_offensive_wars_of = F82 } }
 			}
 		}
 	}
@@ -575,11 +602,15 @@ country_event = { #The Firanyaleni Revolt
 			674 = { if = { limit = { NOT = { owned_by = F82 } country_or_non_sovereign_subject_holds = F27 } remove_core = owner cede_province =  F82 add_core = F82 } }
 			F82 = { declare_war_with_cb = { who = F27 casus_belli = cb_annex } }
 			676 = { add_latest_building = { builder = F82 fort = yes } }
-			if = {
-				limit = {
-					any_country = { owns = 3064 culture = green_orc is_subject = no }
+			F82 = {
+				every_neighbor_country = {
+					limit = {
+						culture_is_orcish = yes
+						NOT = { is_subject = yes }
+					}
+					create_alliance = F82
+					join_all_offensive_wars_of = F82
 				}
-				3064 = { owner = { create_alliance = F82 join_all_offensive_wars_of = F82 } }
 			}
 			switch_tag = F82
 		}

@@ -14,7 +14,7 @@ country_event = {
 	trigger = { always = yes }
 	
 	immediate = {
-		add_country_modifier = {
+	add_country_modifier = {
  			name = loop_remnant_spiner
  			duration = 18250
  		}

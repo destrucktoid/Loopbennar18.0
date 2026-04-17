@@ -37,6 +37,7 @@ technology = { #Tribal Government
 	pioneer_office = yes
 	mustering_field = yes
 	local_exchange = yes
+	automatory = yes
 
 	#world_tree_lvl_1 = yes
 	#world_tree_lvl_2 = yes
@@ -324,7 +325,6 @@ technology = { #Absolute Rulership
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
-	furnace = yes
 }
 
 technology = { #Land Clearance
@@ -341,6 +341,7 @@ technology = { #Land Clearance
 	
 	#Land Clearance
 	production_efficiency 	=	0.02
+	furnace = yes
 }
 
 technology = { #The Constitution

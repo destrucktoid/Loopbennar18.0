@@ -1079,6 +1079,7 @@ chaqway_5 = {
 			4328 = {
 				has_manufactory_trigger = yes
 				base_manpower = 8
+				province_has_center_of_trade_of_level = 2
 				province_has_current_tech_fort_trigger = yes
 			}
 			num_of_completed_idea_groups_by_category = {

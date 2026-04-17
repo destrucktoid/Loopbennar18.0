@@ -262,10 +262,7 @@ beggaston_A_missions_2 = {
 					tier = 2
 				}
 				is_prosperous = yes
-				custom_trigger_tooltip = {
-					tooltip = beggaston_parliament_seat_tt
-					has_seat_in_parliament = yes
-				}
+				anb_has_seat_in_parliament = yes
 				has_courthouse_building_trigger = yes
 			}
 			custom_trigger_tooltip = {
@@ -794,40 +791,40 @@ beggaston_B_missions = {
 				}
 				kehtauk_area = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				uruksokh_area = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				enasumpa_area = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				fenisokhna_area = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				tukhpud_area = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				ebenmas_area = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				2821 = {
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 				1840 = {
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 					NOT = { local_autonomy = 15 }
 				}
 			}
@@ -936,7 +933,7 @@ beggaston_B_missions = {
 				AND = {
 					region = ekyunimoy_region
 					NOT = {
-						country_or_non_sovereign_subject_holds = ROOT
+						owned_by = ROOT
 					}
 				}
 				AND = {
@@ -955,7 +952,7 @@ beggaston_B_missions = {
 				tooltip = beggaston_B_10_claimscheck_tt
 				ekyunimoy_region = {
 					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = ROOT
 				}
 			}
 			treasury = 1000

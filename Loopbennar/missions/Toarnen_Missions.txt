@@ -1709,15 +1709,10 @@ toarnen_column_four = {
 		position = 9
 		
 		trigger = {
-			901 = { # 
-				OR = {
-					owner = {
-						has_opinion = {
-							who = ROOT
-							value = 150
-						}
-					}
-					owned_by = ROOT
+			A92 = { # Leslinpar
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 			dip_power = 50

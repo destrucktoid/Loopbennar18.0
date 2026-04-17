@@ -10,11 +10,16 @@ religion = the_jadd
 technology_group = tech_east_elven
 historical_friend = F49 #Elaienna, interbreeding
 #historical_friend = R38 #Bhuvauri
+historical_rival = R53 #raj
+historical_rival = R51
 capital = 2909
 add_army_professionalism = 0.4
 add_army_tradition = 60
 
-1000.1.1 = { set_estate_privilege = estate_mages_organization_jaherian_statute }
+1000.1.1 = { 
+    set_estate_privilege = estate_mages_organization_magi_clans 
+	initialise_custom_spell_list = { group = bulwar }
+}
 
 1310.2.1 = {
 	monarch = {

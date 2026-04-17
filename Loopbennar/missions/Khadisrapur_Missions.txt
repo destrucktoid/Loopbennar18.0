@@ -471,7 +471,10 @@ R11_pre_victory_3 = {
 			is_or_was_tag = { tag = R11 }
 			government_rank = 2
 			estate_loyalty = { estate = all loyalty = 60 }
-			
+			R07 = {
+				alliance_with = ROOT
+				owns = 4460
+			}
 			OR = {
 				has_commanding_three_star = yes
 				mil_power = 250
@@ -870,7 +873,13 @@ R11_post_victory_1 = {
 				has_manpower_building_trigger = yes
 				has_great_project = { type = godswall tier = 3 }
 			}
-			army_professionalism = 0.5
+			if = {
+				limit = { has_dlc = "Cradle of Civilization" } 
+				army_professionalism = 0.5
+			}
+			else = {
+				army_tradition = 80
+			}
 			has_commanding_three_star = yes
 		}
 

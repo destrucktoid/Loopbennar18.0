@@ -105,7 +105,7 @@ country_event = {
 	option = {
 		name = splintering.2.a
 		ai_chance = {
-			factor = 25
+			factor = 0
 			modifier = {
 				factor = 0
 				is_lake_federation_leader = yes
@@ -116,10 +116,43 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				tag = J23
+				tag = J01
+			}
+			modifier = {
+				factor = 0
+				tag = J02
+			}
+			modifier = {
+				factor = 0
+				tag = J03
+			}
+			modifier = {
+				factor = 0
+				tag = J04
+			}
+			modifier = {
+				factor = 0
+				tag = J05
+			}
+			modifier = {
+				factor = 0
+				tag = J06
+			}
+			modifier = {
+				factor = 0
+				tag = J08
+			}
+			modifier = {
+				factor = 0
+				tag = J24
+			}
+			modifier = {
+				factor = 0
+				tag = J25
 			}
 		}
 		clr_country_flag = cohesion_rejected_formation
+		J23 = { country_event = { id = splintering.2 days = 3 } }
 		lake_federation_lose_15_points = yes
 		federation_cohesion_form_formable = yes
 		if = {
@@ -136,6 +169,46 @@ country_event = {
 				factor = 0
 				NOT = { is_lake_federation_leader = yes }
 				NOT = { tag = J23 }
+			}
+			modifier = {
+				factor = 100
+				tag = J23
+			}
+			modifier = {
+				factor = 100
+				tag = J01
+			}
+			modifier = {
+				factor = 100
+				tag = J02
+			}
+			modifier = {
+				factor = 100
+				tag = J03
+			}
+			modifier = {
+				factor = 100
+				tag = J04
+			}
+			modifier = {
+				factor = 100
+				tag = J05
+			}
+			modifier = {
+				factor = 100
+				tag = J06
+			}
+			modifier = {
+				factor = 100
+				tag = J08
+			}
+			modifier = {
+				factor = 100
+				tag = J24
+			}
+			modifier = {
+				factor = 100
+				tag = J25
 			}
 		}
 		lake_federation_gain_10_points = yes
@@ -870,28 +943,6 @@ country_event = {
 			}
 		}
 		else_if = {
-			limit = { federation_cohesion_forms_J53 = yes }
-			if = {
-				limit = {
-					NOT = {
-						calc_true_if = {
-							all_known_country = {
-								check_variable = {
-									which = FederationPoints
-									which = PREV
-								}
-								is_subject = no
-								federation_cohesion_forms_J53 = yes
-							}
-							amount = 1
-						}
-					}
-					is_subject = no
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		else_if = {
 			limit = { federation_cohesion_forms_J49 = yes }
 			if = {
 				limit = {
@@ -983,21 +1034,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_very_high_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1062,21 +1098,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_high_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1135,21 +1156,6 @@ country_event = {
 					federation_has_normal_standing = yes
 				}
 				set_country_flag = cohesion_J52_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_normal_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
 			}
 		}
 		if = {
@@ -1231,21 +1237,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_low_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1304,18 +1295,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = { federation_cohesion_forms_J53 = yes }
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1367,22 +1346,6 @@ country_event = {
 			random_known_country = {
 				limit = {
 					has_country_flag = cohesion_J52_former 
-					NOT = { has_country_flag = cohesion_rejected_formation }
-				}
-				country_event = { id = splintering.2 days = 7 random = 14 }
-			}
-		}
-		if = {
-			limit = {
-				has_country_flag = cohesion_J53_former 
-				NOT = { has_country_flag = cohesion_rejected_formation }
-			}
-			country_event = { id = splintering.2 days = 1 random = 6 }
-		}
-		else = {
-			random_known_country = {
-				limit = {
-					has_country_flag = cohesion_J53_former 
 					NOT = { has_country_flag = cohesion_rejected_formation }
 				}
 				country_event = { id = splintering.2 days = 7 random = 14 }
@@ -1467,21 +1430,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_very_high_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1546,21 +1494,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_high_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1619,21 +1552,6 @@ country_event = {
 					federation_has_normal_standing = yes
 				}
 				set_country_flag = cohesion_J52_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_normal_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
 			}
 		}
 		if = {
@@ -1714,21 +1632,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = {
-					federation_cohesion_forms_J53 = yes
-					federation_has_low_standing = yes
-				}
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1787,18 +1690,6 @@ country_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					any_known_country = { has_country_flag = cohesion_J53_former }
-					has_country_flag = cohesion_J53_former
-				}
-			}
-			random_known_country = {
-				limit = { federation_cohesion_forms_J53 = yes }
-				set_country_flag = cohesion_J53_former
-			}
-		}
-		if = {
-			limit = { 
-				NOT = { 
 					any_known_country = { has_country_flag = cohesion_J49_former }
 					has_country_flag = cohesion_J49_former
 				}
@@ -1850,22 +1741,6 @@ country_event = {
 			random_known_country = {
 				limit = {
 					has_country_flag = cohesion_J52_former 
-					NOT = { has_country_flag = cohesion_rejected_formation }
-				}
-				country_event = { id = splintering.2 days = 7 random = 14 }
-			}
-		}
-		if = {
-			limit = {
-				has_country_flag = cohesion_J53_former 
-				NOT = { has_country_flag = cohesion_rejected_formation }
-			}
-			country_event = { id = splintering.2 days = 1 random = 6 }
-		}
-		else = {
-			random_known_country = {
-				limit = {
-					has_country_flag = cohesion_J53_former 
 					NOT = { has_country_flag = cohesion_rejected_formation }
 				}
 				country_event = { id = splintering.2 days = 7 random = 14 }

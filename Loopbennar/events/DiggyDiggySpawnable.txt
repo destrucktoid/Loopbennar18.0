@@ -376,7 +376,7 @@ country_event = {
 			}
 			event_target:spawn_province = {
 				random_empty_neighbor_province = {
-					limit = { NOT = { can_spawn_expedition = yes } }
+					limit = { can_spawn_expedition = yes }
 					spawn_expedition = yes
 				}
 			}
@@ -483,7 +483,7 @@ country_event = {
 	mean_time_to_happen = { years = 1 }
 	
 	trigger = {
-		is_year = 1860
+		is_year = 1460
 		owns = 4397
 		NOT = { has_global_flag = delete_east_serpentspine_region }
 	}

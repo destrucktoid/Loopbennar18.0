@@ -11,7 +11,12 @@
  portal_title:0 "Open the Portal"
  H79_nation2:0 "Reform Ovdal Kanzad"
  
+ loopzabutodask:0 "Form Zabutodask"
+ loopikogshantus:0 "Form Ikogshantus"
+ loopsunijalla:0 "Form Sunijalla"
  
+ mank_shit_talk_tt: "Removed, direct all complaints to §Rmankspy§! on Discord!"
+ loop_ai_cant_ally_tt: "This tag was AI on startup, so it cannot form alliances for 14 days."
  
  altorzamh_reform:0 "Amber Road Republic" 
  altorzamh_reform_desc:0 "The old amber road connecting the lakes and Bulwar has been revitalized, opening up a powerful new trade route for both continents. Our republic has seized the opportunity to control the main trade posts."
@@ -84,6 +89,7 @@
  loop_recovery3:0 "we will fight him on the beaches"
  loop_recovery4:0 "we will fight him on every road, in every village"
  loop_recovery5:0 "in every house, until he or we are utterly destroyed!"
+ loop_genie_modifier:0 "there is no german box."
  
  
  
@@ -203,3 +209,8 @@
  loop_default_balanced2_desc:0 ""
  loop_default_balanced3_title:0 "Stronger Together"
  loop_default_balanced3_desc:0 ""
+ 
+ flavor_loopgeneric.18.t:0 "Thanks For Filling"
+ flavor_loopgeneric.18.d:0 "With the amount of players we have it makes seeding a lot easier when players choose to fill. so you get a small bonus"
+ flavor_loopgeneric.18.a:0 "Ok"
+ flavor_loopgeneric.18.a.tt:0 "enjoy your §G+1§! §YStability§!. §Rmankspy§! on discord would never give you a bonus like this. what a snake\n"

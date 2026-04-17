@@ -740,7 +740,6 @@ ahudazar_4 = {
 				}
 				num_of_buildings_in_province = 3
 				has_manufactory_trigger = yes
-				has_dock_building_trigger = yes 
 				development = 15
 			}
 			beri_gnidi_area = {

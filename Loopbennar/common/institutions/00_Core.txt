@@ -76,6 +76,14 @@ feudalism = {
 						technology_group = tech_nzeri_harpy
 						technology_group = tech_east_sarhaly
 						technology_group = tech_soulseeker_ogre
+						technology_group = tech_exodus_goblin
+						technology_group = tech_goblin
+						technology_group = tech_lizardfolk
+						technology_group = tech_inyaswarosa
+						technology_group = tech_siadunan_harpy
+						technology_group = tech_cave_goblin
+						technology_group = tech_vyzemby
+						technology_group = tech_darkscale_kobold
 						culture = amezatany
 						culture = firanyan_harpy
 						culture = naleni_harpy
@@ -101,7 +109,8 @@ feudalism = {
 						tag = H73 #Skewered Drake
 						tag = H74 #Chaingrasper
 						tag = S23 #Hisost Yamok
-						tag = Q70 #Kravigozles
+						tag = A49 # xanzerbexis
+						tag = J32 # mire maw
 					}
 					NOT = {
 						primary_culture = risbeko
@@ -579,6 +588,21 @@ new_world_i = {
 				}
 			}
 			reduce_infrastructure_institution_penalty = yes
+		}
+		# start unlock of lencori behemoths
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_global_flag = lencori_behemoth } }
+				every_country = {
+					limit = {
+						OR = {
+							owns = 112
+							lencori_qualifies_for_behemoths = yes
+						}
+					}
+					country_event = { id = lencori_behemoth.1 days = 30 }
+				}
+			}
 		}
 	}
 	
@@ -1981,10 +2005,22 @@ enlightenment = {
 		}
 		if = {
 			limit = {
+				4907 = {
+					owner = { 
+						is_or_was_tag = { tag = Y15 } # Beikdugang  
+						mission_completed = Y15_spread_enlightenment
+					}
+				}
+			}
+			province_id = 4907
+		}
+		else_if = {
+			limit = {
 				F66 = { mission_completed = konolkhatep_open_eyes }
 			}
 			is_capital_of = F66
 		}
+		
 	}
 	start_chance = 10		#in 100 for when a province can_start
 	

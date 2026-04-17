@@ -414,14 +414,12 @@ lorent_conquest2 = {
 		
 		trigger = {
 			treasury = 500
-			stability = 1
+			has_estate_privilege = estate_mages_organization_state
 			owns = 79
 		}
 		
 		effect = {
 			add_treasury = -500
-			add_stability = -1
-			set_estate_privilege = estate_mages_organization_state
 			79 = {
 				add_province_modifier = {
 					name = eilisin_mage_wing_construction
@@ -766,7 +764,7 @@ wine_buildup = {
 	A15_coming_to_bear = {
 		icon = mission_colonial
 		required_missions = {
-			A15_a_budding_rose A15_vineyards_of_life_mission 
+			A15_a_budding_rose A15_vineyards_of_life_mission A15_prepare_the_land
 		}
 		position = 9
 		
